@@ -43,6 +43,9 @@
 }
 .paragraph{
     margin-top: 20px;
+    color: cadetblue;
     display: flex;
-    justify-content: center;   
+    flex-direction: column;
+    margin-left: 50px; 
 }
+
