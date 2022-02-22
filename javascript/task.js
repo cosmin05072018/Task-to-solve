@@ -7,7 +7,7 @@ submit.addEventListener("click", addTask);
 paragraphElement.addEventListener("click", handleTaskClick);
 clear.addEventListener("click", (e) => {
   paragraphElement.innerHTML = "";
-  displayMessage("astazi nu ai nimic");
+  displayMessage("There are no task!");
 });
 
 function handleTaskClick(event) {
@@ -19,7 +19,7 @@ function handleTaskClick(event) {
   }
 }
 
-displayMessage("astazi nu ai nimic");
+displayMessage("There are no task!");
 
 function addTask() {
   let describeTask = document.getElementById("describe");
@@ -29,7 +29,7 @@ function addTask() {
     describeTask.value = "";
     messageElement.style.visibility = "hidden";
   } else {
-    displayMessage("Te rog introdu un mesaj");
+    displayMessage("Please write a text!");
   }
 }
 
