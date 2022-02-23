@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+    body{
+        width: 768px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 320px){
+    body{
+        width: 320px;
+        padding: 5px;
+    }
+}
