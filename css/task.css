@@ -49,6 +49,12 @@ body{
   color: #fff;
 }
 
+#submitBtn:hover{
+  background-color: #fff;
+  color: #0646a1;
+  transition: ease 1s;
+}
+
 .fullContainer {
   margin-top: 20px;
   display: flex;
@@ -68,12 +74,30 @@ body{
     border-radius: 5px;
 }
 
+#clearList:hover{
+    background-color: #fff;
+    color: rgba(247, 6, 6, 0.664);
+    transition: ease 1s;
+}
+
 .task{
     display: flex;
     justify-content: center;
+    top: 200px;
 }
 
 .paragraph {
     display: flex;
     flex-direction: column;
+  }
+
+.itemGroupList:nth-child(1){
+    margin-top: 55px;
+}
+
+.itemGroupList{
+    border-top: 1px solid #383838;
+    padding: 12px;
+    cursor: pointer;
+    list-style: none;
   }

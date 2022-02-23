@@ -25,7 +25,7 @@ function addTask() {
   let describeTask = document.getElementById("describe");
   if (inputValid(describeTask.value)) {
     paragraphElement.innerHTML +=
-      '<li class="totul">' + describeTask.value + "</li>";
+      '<li class="itemGroupList">' + describeTask.value + "</li>";
     describeTask.value = "";
     messageElement.style.visibility = "hidden";
   } else {
@@ -44,4 +44,5 @@ function inputValid(input) {
 function displayMessage(message) {
   messageElement.innerHTML = message;
   messageElement.style.visibility = "visible";
+  messageElement.style.marginTop = "20px";  
 }
