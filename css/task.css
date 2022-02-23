@@ -2,6 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+body{
+    background: rgb(214, 218, 219);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden; 
 }
 
 .title {
@@ -11,6 +20,8 @@
   margin-left: 25%;
   margin-right: 25%;
   border-radius: 10px;
+  margin-bottom: 50px;
+  height: 50px;
 }
 
 .container {
@@ -20,20 +31,22 @@
 
 .addNewTask {
   border: 2px solid black;
-  padding: 5px;
   border-radius: 10px 0px 0px 10px;
-  padding: 10px;
+  padding: 15px 35px;
+  background: #383838;
+  color: #fff
 }
 
 .describeYourTask {
   border: 2px solid black;
-  padding: 5px;
-  padding: 10px;
+  padding: 15px 35px;
 }
 
-#submitBtn{
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px;
+#submitBtn {
+  border-radius: 0px 10px 10px 0px;
+  padding: 15px 35px;
+  background-color: #0646a1;
+  color: #fff;
 }
 
 .fullContainer {
@@ -47,10 +60,20 @@
   display: flex;
   justify-content: center;
 }
-.paragraph {
-  margin-top: 20px;
-  color: cadetblue;
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
+
+#clearList{
+    background-color: rgba(247, 6, 6, 0.664);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.task{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+  }
